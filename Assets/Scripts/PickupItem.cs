@@ -2,10 +2,23 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour
 {
-    public string itemName = "objeto"; // Ej: "llave", "ganzúa"
+    public string itemName = "objeto";
     public Sprite itemSprite;
-
+    public AudioClip pickupSound;
     private bool playerInRange = false;
+
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        audioSource.playOnAwake = false;
+    }
 
     void Update()
     {
@@ -14,8 +27,15 @@ public class PickupItem : MonoBehaviour
             bool added = InventoryManager.instance.AddItem(itemSprite, itemName);
             if (added)
             {
+                if (pickupSound != null)
+                {
+                    audioSource.PlayOneShot(pickupSound);
+                }
+
                 PickupUI.instance.HideMessage();
-                Destroy(gameObject);
+
+                Destroy(gameObject, pickupSound != null ? pickupSound.length : 0f);
+
             }
             else
             {

@@ -9,12 +9,18 @@ public class UIManager : MonoBehaviour
 
     public TextMeshProUGUI victoryMessage;
     public Button restartButton;
-    public TextMeshProUGUI missingItemsMessage; // NUEVO
+    public TextMeshProUGUI missingItemsMessage;
+    public AudioClip winSound;
+    private AudioSource audioSource;
+
 
     private void Awake()
     {
         instance = this;
 
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
         victoryMessage.enabled = false;
         restartButton.gameObject.SetActive(false);
         missingItemsMessage.enabled = false;
@@ -26,6 +32,10 @@ public class UIManager : MonoBehaviour
     {
         victoryMessage.enabled = true;
         restartButton.gameObject.SetActive(true);
+        if (winSound != null)
+        {
+            audioSource.PlayOneShot(winSound);
+        }
     }
 
     public void ShowMissingItems()
