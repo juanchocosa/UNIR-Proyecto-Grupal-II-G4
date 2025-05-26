@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 1d406edcda58de54d86e810ec1dee964
-=======
 guid: 77204e3ad39e5d34699a6b712c634e6f
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,11 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -80,11 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,22 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,9 +108,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
       name: EnemigoAndando_32x32_0
@@ -224,7 +193,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     outline: []
     physicsShape: []
     bones: []
@@ -235,15 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    nameFileIdTable: {}
-=======
     nameFileIdTable:
       EnemigoAndando_32x32_0: -2136175761
       EnemigoAndando_32x32_1: -2005648753
       EnemigoAndando_32x32_2: -1645072515
       EnemigoAndando_32x32_3: -938183176
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

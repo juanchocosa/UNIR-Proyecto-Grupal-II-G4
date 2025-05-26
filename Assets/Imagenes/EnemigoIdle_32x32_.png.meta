@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: f708dea48b5b4d0438642472a6df159e
-=======
 guid: a6dc38c7ac8ebfa4a94cae9ba338cf75
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -38,11 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 1
-=======
     filterMode: 0
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,11 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,11 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,22 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-=======
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -140,9 +108,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
       name: EnemigoIdle_32x32__0
@@ -228,7 +193,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
     outline: []
     physicsShape: []
     bones: []
@@ -239,15 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    nameFileIdTable: {}
-=======
     nameFileIdTable:
       EnemigoIdle_32x32__0: -256150686
       EnemigoIdle_32x32__1: 1172672835
       EnemigoIdle_32x32__2: 2092447423
       EnemigoIdle_32x32__3: -278083828
->>>>>>> 6e36af13da13d144b93f05847e8093e81275db7d
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
