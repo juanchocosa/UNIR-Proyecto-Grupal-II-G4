@@ -11,7 +11,7 @@ public class PickupItem : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            bool added = InventoryManager.instance.AddItem(itemSprite);
+            bool added = InventoryManager.instance.AddItem(itemSprite, itemName);
             if (added)
             {
                 PickupUI.instance.HideMessage();

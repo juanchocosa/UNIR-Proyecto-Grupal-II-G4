@@ -20,13 +20,13 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public bool AddItem(Sprite itemSprite)
+    public bool AddItem(Sprite itemSprite, string itemName)
     {
         foreach (InventorySlot slot in slots)
         {
             if (!slot.itemImage.enabled)
             {
-                slot.SetItem(itemSprite);
+                slot.SetItem(itemSprite, itemName);
                 return true;
             }
         }
@@ -34,5 +34,19 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("Inventario lleno");
         return false;
     }
+
+    public bool HasItemByName(string name)
+    {
+        foreach (InventorySlot slot in slots)
+        {
+            if (slot.itemName == name.ToLower())
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }
 
