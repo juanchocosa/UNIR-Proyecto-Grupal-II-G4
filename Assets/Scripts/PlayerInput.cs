@@ -44,5 +44,6 @@ public class PlayerInput : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
     }
 }
